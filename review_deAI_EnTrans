@@ -8,17 +8,15 @@ For each provided annotation, produce exactly one corresponding reviewer comment
 
 You may add additional reviewer comments only when they are directly supported by the provided manuscript text. Label such comments as “Additional (not from annotations)” and include line numbers.
 
-Part 1 (Reviewer Comments): You may use a numbered structure to preserve the one-to-one mapping between annotations and comments.
+Reviewer comments structure: Output a single reviewer report using a common structure: (a) Overall Assessment, (b) Core Issues, and (c) Minor Issues. Use numbered items for Core/Minor Issues to keep the one-to-one mapping between annotations and comments.
 
-Part 2 (De-AI Rewrite, Route A): Rewrite Part 1 so the language reads like a native-English researcher. Use plain, precise academic wording and avoid ornamental or overused “AI-sounding” phrasing (e.g., avoid leverage, delve into, tapestry unless technically necessary). Do not use bullet points, numbered lists, bold, or italics.
+Format & content requirements (writing constraints, not an output section): Use plain, precise academic wording and avoid ornamental or overused “AI-sounding” phrasing (e.g., avoid leverage, delve into, tapestry unless technically necessary). Keep each point focused on the issue, why it matters (validity/clarity/reproducibility), and a concrete revision suggestion.
 
-To keep the mapping verifiable without using a list format, write Part 2 as a sequence of normal paragraphs. Each paragraph must start with a line-number anchor in the form “Lx” or “Lx–Ly” (matching the cited location for that comment), followed by the rewritten text in full sentences. Keep the same order as Part 1, and do not merge multiple Part 1 comments into one Part 2 paragraph.
+Quality check requirements (writing constraints, not an output section): Make only necessary edits; if wording already reads natural and idiomatic, keep it. Ensure the tone is factual and restrained, avoiding superlatives and self-congratulatory phrasing (e.g., perfectly, strictly, excellent job). Escape LaTeX-sensitive characters when needed.
 
-Make only necessary edits; if a sentence already reads natural and idiomatic, keep it. Each paragraph should still state the issue, why it matters (validity/clarity/reproducibility), and a concrete revision suggestion, without becoming verbose. Do not restructure Part 2 into a high-level summary letter; keep it close to Part 1 and focus on light, targeted edits that reduce “AI tone” while preserving meaning.
+In addition to annotation-based comments, if you find other issues directly supported by the provided manuscript text, include them in Core Issues or Minor Issues and label them as “Additional (not from annotations)” with line numbers.
 
-Part 3 (Self-check & Positive Feedback): Write 2–4 sentences, factual and restrained. Confirm that Part 2 uses no bullets or numbering and that you did not make unnecessary rewrites. Avoid superlatives and self-congratulatory phrasing (e.g., perfectly, strictly, excellent job). If no instances of %, _, or & occur in Parts 1–2, state “No LaTeX escaping was needed.” Otherwise confirm they were escaped. If Part 1 was already natural and required minimal changes, state that explicitly.
-
-Output format requirement: Output only Part 1, Part 2, and Part 3, in English, with no additional dialogue or meta commentary.
+Output format requirement: Output only the reviewer comments in the above structure (Overall Assessment, Core Issues, Minor Issues), in English, with no additional dialogue or meta commentary. Do not echo these writing constraints as separate sections in the final output.
 
 二、Execution Protocol
 
