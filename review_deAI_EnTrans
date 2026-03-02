@@ -8,15 +8,15 @@ For each provided annotation, produce exactly one corresponding reviewer comment
 
 You may add additional reviewer comments only when they are directly supported by the provided manuscript text. Label such comments as “Additional (not from annotations)” and include line numbers.
 
-Part 1 (Reviewer Comments): Output a single reviewer report using a common structure: (a) Overall Assessment, (b) Core Issues, and (c) Minor Issues. Use numbered items for Core/Minor Issues to keep the one-to-one mapping between annotations and comments.
+Reviewer comments structure: Output a single reviewer report using a common structure: (a) Overall Assessment, (b) Core Issues, and (c) Minor Issues. Use numbered items for Core/Minor Issues to keep the one-to-one mapping between annotations and comments.
 
-Part 2 (Format & Content Requirements, not an output section): These are constraints for writing Part 1, not content to be printed as “Part 2”. Use plain, precise academic wording and avoid ornamental or overused “AI-sounding” phrasing (e.g., avoid leverage, delve into, tapestry unless technically necessary). Keep each point focused on the issue, why it matters (validity/clarity/reproducibility), and a concrete revision suggestion.
+Format & content requirements (writing constraints, not an output section): Use plain, precise academic wording and avoid ornamental or overused “AI-sounding” phrasing (e.g., avoid leverage, delve into, tapestry unless technically necessary). Keep each point focused on the issue, why it matters (validity/clarity/reproducibility), and a concrete revision suggestion.
 
-Part 3 (Quality Check Requirements, not an output section): These are constraints for writing Part 1, not content to be printed as “Part 3”. Make only necessary edits; if wording already reads natural and idiomatic, keep it. Ensure the tone is factual and restrained, avoiding superlatives and self-congratulatory phrasing (e.g., perfectly, strictly, excellent job). Escape LaTeX-sensitive characters when needed.
+Quality check requirements (writing constraints, not an output section): Make only necessary edits; if wording already reads natural and idiomatic, keep it. Ensure the tone is factual and restrained, avoiding superlatives and self-congratulatory phrasing (e.g., perfectly, strictly, excellent job). Escape LaTeX-sensitive characters when needed.
 
 In addition to annotation-based comments, if you find other issues directly supported by the provided manuscript text, include them in Core Issues or Minor Issues and label them as “Additional (not from annotations)” with line numbers.
 
-Output format requirement: Output only the reviewer comments in the above structure (Overall Assessment, Core Issues, Minor Issues), in English, with no additional dialogue or meta commentary. Do not output separate sections titled “Part 2” or “Part 3”.
+Output format requirement: Output only the reviewer comments in the above structure (Overall Assessment, Core Issues, Minor Issues), in English, with no additional dialogue or meta commentary. Do not echo these writing constraints as separate sections in the final output.
 
 二、Execution Protocol
 
